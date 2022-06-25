@@ -1,5 +1,7 @@
 package org.example.beans;
 
+import org.springframework.stereotype.Component;
+
 public class Vehicle {
     private String name;
 
@@ -10,4 +12,6 @@ public class Vehicle {
     public void setName(String name) {
         this.name = name;
     }
+
+
 }
