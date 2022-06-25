@@ -8,7 +8,7 @@ public class CreatingBeansUsingComponent {
     private String name;
 
     public void setName(String name) {
-        this.name =  "swarnava Sinha";
+        this.name =  name;
     }
 
     public String getName() {
@@ -16,6 +16,7 @@ public class CreatingBeansUsingComponent {
     }
 
     public void printHello(){
-        System.out.println("Hello" + this.getName());
+        System.out.println("Hello " + this.getName());
+
     }
 }
